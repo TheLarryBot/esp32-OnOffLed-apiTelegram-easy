@@ -3,12 +3,12 @@
 #include <UniversalTelegramBot.h>
 
 // Configuración de Wi-Fi
-const char* ssid = "LarryBot Wi-Fi";       // Reemplaza con tu red Wi-Fi
-const char* password = "suscribete"; // Reemplaza con tu contraseña
+const char* ssid = "you-wifiSSID";       // Reemplaza con tu red Wi-Fi EDITAR
+const char* password = "youPassword"; // Reemplaza con tu contraseña EDITAR
 
 // Configuración de Telegram
-const char* botToken = "7905386912:AAHOpdp_e8ZS7IMIW6pgxMWVIOtFtCDxSKY";  // Token del bot de Telegram
-const String chatID = "1249279984";        // ID del chat de Telegram
+const char* botToken = "youApiToken";  // Token del bot de Telegram EDITAR
+const String chatID = "youChatID";        // ID del chat de Telegram EDITAR
 
 // Configuración del LED
 const int ledPin = 2;  // GPIO donde está conectado el LED
